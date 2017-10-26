@@ -13,12 +13,12 @@
     </listener>
     
     <servlet>
-    	<servlet-name>BaseHttpServlet</servlet-name>
-    	<servlet-class>com.teaminternational.web.BaseHttpServlet</servlet-class>
+    	<servlet-name>NewServlet</servlet-name>
+    	<servlet-class>com.teaminternational.web.NewServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>    
-    	<servlet-name>BaseHttpServlet</servlet-name>
+    	<servlet-name>NewServlet</servlet-name>
     	<url-pattern>/</url-pattern>
     </servlet-mapping>
 
