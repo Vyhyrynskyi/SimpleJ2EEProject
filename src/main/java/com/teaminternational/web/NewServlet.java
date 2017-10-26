@@ -15,7 +15,7 @@ public class NewServlet extends BaseHttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		HelloWorldGeneratorImpl helloWorld = getBean(HelloWorldGenerator.COMPONENT_NAME);
-		helloWorld.sayHello();
+		HelloWorldGeneratorImpl helloWorldGenerator = getBean(HelloWorldGenerator.COMPONENT_NAME);
+		helloWorldGenerator.sayHello();
 	}
 }
